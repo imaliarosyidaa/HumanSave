@@ -1,0 +1,115 @@
+@font-face {
+  font-family: Playfair;
+  src: url("../fonts/Playfair_Display/PlayfairDisplay-Regular.ttf");
+}
+
+@font-face {
+  font-family: Playfair;
+  src: url("../fonts/Playfair_Display/PlayfairDisplay-Bold.ttf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url("../fonts/inter/Inter-Regular.ttf");
+}
+
+@font-face {
+  font-family: Inter;
+  src: url("../fonts/inter/Inter-Bold.ttf");
+  font-weight: bold;
+}
+
+h1 {
+  font-family: Playfair;
+  font-weight: bold !important;
+  font-size: 64px;
+  max-width: 600px;
+}
+
+header {
+  background-color: #f9f7f2;
+}
+
+header p {
+  padding: 20px 0px;
+}
+
+header .title {
+  height: max-content;
+}
+
+.text-dark-brown {
+  color: #2c1b10;
+}
+
+#features {
+  background-color: #f9f7f2;
+}
+
+.h2 {
+  font-family: Inter !important;
+  color: #f9f7f2 !important;
+}
+
+#tentang-kami {
+  background-color: #bfb759;
+}
+
+#footer {
+  background-color: #bfb759;
+}
+
+nav.custom-navbar {
+  padding: 1rem 3rem;
+  font-family: Playfair, serif;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.navbar-menu {
+  list-style: none;
+  display: flex;
+}
+
+.navbar-menu a {
+  display: block;
+  padding: 0.5rem;
+  color: #2C1B10;
+  text-decoration: none;
+  font-size: 1rem;
+  transition:
+    color 0.15s ease-in-out,
+    background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+}
+
+.navbar-menu a:hover {
+  color: #d9aa4a;
+}
+
+.navbar-icons {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.navbar-icons svg {
+  width: 20px;
+  stroke: #d8b479;
+  counter-reset: #d8b479;
+  transition: color 0.3s ease;
+  padding: 12px;
+}
+
+.navbar-icons a:hover svg {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 100%;
+  padding: 12px;
+  cursor: pointer;
+}
